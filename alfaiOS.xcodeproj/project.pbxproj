@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F70ED4742ACB33FF00B01517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED4732ACB33FF00B01517 /* AppDelegate.swift */; };
+		F70ED4762ACB33FF00B01517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED4752ACB33FF00B01517 /* SceneDelegate.swift */; };
+		F70ED4782ACB33FF00B01517 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED4772ACB33FF00B01517 /* ViewController.swift */; };
+		F70ED47B2ACB33FF00B01517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70ED4792ACB33FF00B01517 /* Main.storyboard */; };
+		F70ED47D2ACB340000B01517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F70ED47C2ACB340000B01517 /* Assets.xcassets */; };
+		F70ED4802ACB340000B01517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70ED47E2ACB340000B01517 /* LaunchScreen.storyboard */; };
+		F70ED48B2ACB340000B01517 /* alfaiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED48A2ACB340000B01517 /* alfaiOSTests.swift */; };
+		F70ED4952ACB340000B01517 /* alfaiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED4942ACB340000B01517 /* alfaiOSUITests.swift */; };
+		F70ED4972ACB340000B01517 /* alfaiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED4962ACB340000B01517 /* alfaiOSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F70ED4872ACB340000B01517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70ED4682ACB33FF00B01517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70ED46F2ACB33FF00B01517;
+			remoteInfo = alfaiOS;
+		};
+		F70ED4912ACB340000B01517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F70ED4682ACB33FF00B01517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F70ED46F2ACB33FF00B01517;
+			remoteInfo = alfaiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F70ED4702ACB33FF00B01517 /* alfaiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alfaiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70ED4732ACB33FF00B01517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F70ED4752ACB33FF00B01517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F70ED4772ACB33FF00B01517 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F70ED47A2ACB33FF00B01517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F70ED47C2ACB340000B01517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F70ED47F2ACB340000B01517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F70ED4812ACB340000B01517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70ED4862ACB340000B01517 /* alfaiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alfaiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70ED48A2ACB340000B01517 /* alfaiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaiOSTests.swift; sourceTree = "<group>"; };
+		F70ED4902ACB340000B01517 /* alfaiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alfaiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70ED4942ACB340000B01517 /* alfaiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaiOSUITests.swift; sourceTree = "<group>"; };
+		F70ED4962ACB340000B01517 /* alfaiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alfaiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F70ED46D2ACB33FF00B01517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70ED4832ACB340000B01517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70ED48D2ACB340000B01517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F70ED4672ACB33FF00B01517 = {
+			isa = PBXGroup;
+			children = (
+				F70ED4722ACB33FF00B01517 /* alfaiOS */,
+				F70ED4892ACB340000B01517 /* alfaiOSTests */,
+				F70ED4932ACB340000B01517 /* alfaiOSUITests */,
+				F70ED4712ACB33FF00B01517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F70ED4712ACB33FF00B01517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F70ED4702ACB33FF00B01517 /* alfaiOS.app */,
+				F70ED4862ACB340000B01517 /* alfaiOSTests.xctest */,
+				F70ED4902ACB340000B01517 /* alfaiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F70ED4722ACB33FF00B01517 /* alfaiOS */ = {
+			isa = PBXGroup;
+			children = (
+				F70ED4732ACB33FF00B01517 /* AppDelegate.swift */,
+				F70ED4752ACB33FF00B01517 /* SceneDelegate.swift */,
+				F70ED4772ACB33FF00B01517 /* ViewController.swift */,
+				F70ED4792ACB33FF00B01517 /* Main.storyboard */,
+				F70ED47C2ACB340000B01517 /* Assets.xcassets */,
+				F70ED47E2ACB340000B01517 /* LaunchScreen.storyboard */,
+				F70ED4812ACB340000B01517 /* Info.plist */,
+			);
+			path = alfaiOS;
+			sourceTree = "<group>";
+		};
+		F70ED4892ACB340000B01517 /* alfaiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F70ED48A2ACB340000B01517 /* alfaiOSTests.swift */,
+			);
+			path = alfaiOSTests;
+			sourceTree = "<group>";
+		};
+		F70ED4932ACB340000B01517 /* alfaiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F70ED4942ACB340000B01517 /* alfaiOSUITests.swift */,
+				F70ED4962ACB340000B01517 /* alfaiOSUITestsLaunchTests.swift */,
+			);
+			path = alfaiOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F70ED46F2ACB33FF00B01517 /* alfaiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70ED49A2ACB340000B01517 /* Build configuration list for PBXNativeTarget "alfaiOS" */;
+			buildPhases = (
+				F70ED46C2ACB33FF00B01517 /* Sources */,
+				F70ED46D2ACB33FF00B01517 /* Frameworks */,
+				F70ED46E2ACB33FF00B01517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = alfaiOS;
+			productName = alfaiOS;
+			productReference = F70ED4702ACB33FF00B01517 /* alfaiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F70ED4852ACB340000B01517 /* alfaiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70ED49D2ACB340000B01517 /* Build configuration list for PBXNativeTarget "alfaiOSTests" */;
+			buildPhases = (
+				F70ED4822ACB340000B01517 /* Sources */,
+				F70ED4832ACB340000B01517 /* Frameworks */,
+				F70ED4842ACB340000B01517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70ED4882ACB340000B01517 /* PBXTargetDependency */,
+			);
+			name = alfaiOSTests;
+			productName = alfaiOSTests;
+			productReference = F70ED4862ACB340000B01517 /* alfaiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F70ED48F2ACB340000B01517 /* alfaiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F70ED4A02ACB340000B01517 /* Build configuration list for PBXNativeTarget "alfaiOSUITests" */;
+			buildPhases = (
+				F70ED48C2ACB340000B01517 /* Sources */,
+				F70ED48D2ACB340000B01517 /* Frameworks */,
+				F70ED48E2ACB340000B01517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F70ED4922ACB340000B01517 /* PBXTargetDependency */,
+			);
+			name = alfaiOSUITests;
+			productName = alfaiOSUITests;
+			productReference = F70ED4902ACB340000B01517 /* alfaiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F70ED4682ACB33FF00B01517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F70ED46F2ACB33FF00B01517 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F70ED4852ACB340000B01517 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F70ED46F2ACB33FF00B01517;
+					};
+					F70ED48F2ACB340000B01517 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = F70ED46F2ACB33FF00B01517;
+					};
+				};
+			};
+			buildConfigurationList = F70ED46B2ACB33FF00B01517 /* Build configuration list for PBXProject "alfaiOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F70ED4672ACB33FF00B01517;
+			productRefGroup = F70ED4712ACB33FF00B01517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F70ED46F2ACB33FF00B01517 /* alfaiOS */,
+				F70ED4852ACB340000B01517 /* alfaiOSTests */,
+				F70ED48F2ACB340000B01517 /* alfaiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F70ED46E2ACB33FF00B01517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70ED4802ACB340000B01517 /* LaunchScreen.storyboard in Resources */,
+				F70ED47D2ACB340000B01517 /* Assets.xcassets in Resources */,
+				F70ED47B2ACB33FF00B01517 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70ED4842ACB340000B01517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70ED48E2ACB340000B01517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F70ED46C2ACB33FF00B01517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70ED4782ACB33FF00B01517 /* ViewController.swift in Sources */,
+				F70ED4742ACB33FF00B01517 /* AppDelegate.swift in Sources */,
+				F70ED4762ACB33FF00B01517 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70ED4822ACB340000B01517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70ED48B2ACB340000B01517 /* alfaiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F70ED48C2ACB340000B01517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70ED4972ACB340000B01517 /* alfaiOSUITestsLaunchTests.swift in Sources */,
+				F70ED4952ACB340000B01517 /* alfaiOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F70ED4882ACB340000B01517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70ED46F2ACB33FF00B01517 /* alfaiOS */;
+			targetProxy = F70ED4872ACB340000B01517 /* PBXContainerItemProxy */;
+		};
+		F70ED4922ACB340000B01517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F70ED46F2ACB33FF00B01517 /* alfaiOS */;
+			targetProxy = F70ED4912ACB340000B01517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F70ED4792ACB33FF00B01517 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70ED47A2ACB33FF00B01517 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F70ED47E2ACB340000B01517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F70ED47F2ACB340000B01517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F70ED4982ACB340000B01517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F70ED4992ACB340000B01517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F70ED49B2ACB340000B01517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = alfaiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F70ED49C2ACB340000B01517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = alfaiOS/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F70ED49E2ACB340000B01517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alfaiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alfaiOS";
+			};
+			name = Debug;
+		};
+		F70ED49F2ACB340000B01517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/alfaiOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/alfaiOS";
+			};
+			name = Release;
+		};
+		F70ED4A12ACB340000B01517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alfaiOS;
+			};
+			name = Debug;
+		};
+		F70ED4A22ACB340000B01517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 955VL5ZPAU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alfaiOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = alfaiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F70ED46B2ACB33FF00B01517 /* Build configuration list for PBXProject "alfaiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70ED4982ACB340000B01517 /* Debug */,
+				F70ED4992ACB340000B01517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70ED49A2ACB340000B01517 /* Build configuration list for PBXNativeTarget "alfaiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70ED49B2ACB340000B01517 /* Debug */,
+				F70ED49C2ACB340000B01517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70ED49D2ACB340000B01517 /* Build configuration list for PBXNativeTarget "alfaiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70ED49E2ACB340000B01517 /* Debug */,
+				F70ED49F2ACB340000B01517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F70ED4A02ACB340000B01517 /* Build configuration list for PBXNativeTarget "alfaiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F70ED4A12ACB340000B01517 /* Debug */,
+				F70ED4A22ACB340000B01517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F70ED4682ACB33FF00B01517 /* Project object */;
+}
